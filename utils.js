@@ -31,7 +31,7 @@ var utils = {
     while (m = rex.exec(str)) {
       var url = m[1];
 
-      // console.debug(url);
+      console.debug(url);
 
       urls.push(url);
       return url.split('/').pop();
